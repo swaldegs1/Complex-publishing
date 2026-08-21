@@ -1,0 +1,53 @@
+<!-- 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html">
+        <base target="main">
+        <title>Order Complete (Example)</title>
+    </head>
+    <frameset cols="190,*">
+        <frame name="content" scrolling="no" src="content.htm" id="content">
+        <frame name="main" scrolling="auto" src="main.htm" id="main">
+        <noframes>
+            <body>
+                <p>This site use frames. Your browser doesn't supported frames.</p>
+            </body>
+        </noframes>
+    </frameset>
+</html> -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Complete (Example)</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 190px 1fr;
+        height: 100vh;
+      }
+      iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <iframe src="content.htm" name="content" title="content"></iframe>
+      <iframe src="main.htm" name="main" title="main"></iframe>
+    </div>
+  </body>
+</html>

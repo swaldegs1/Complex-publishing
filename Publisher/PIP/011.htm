@@ -1,0 +1,2635 @@
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+  <HTML>
+  <HEAD>
+  <TITLE>PIP3A4_PurchaseOrderRequest Guideline Example</TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <META http-equiv="content-script-type" content="text/javascript">
+  <META name="GENERATOR" content="GEFEG.FX">
+  <META name="edipath" content="">
+  <META name="edipath2" content="">
+  <META name="segmentnumber" content="">
+  <BASE target="main">
+  <LINK type="text/css" rel="stylesheet" charset="UTF-8" href="01.css">
+  <SCRIPT language="JavaScript" charset="UTF-8" defer="defer" src="../script.js" type="text/javascript">
+  </SCRIPT>
+  </HEAD>
+  <BODY id="root" onload="init()" class="BODY_01"><DIV id="doc">
+    <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+      <TR>
+        <TD VALIGN="TOP" WIDTH="74%" CLASS="Background_1 Border_1">
+        <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+          <TR>
+            <TD WIDTH="100%" COLSPAN="2" NOWRAP><div CLASS="Font_2 Spacing_1">Implementation Guideline</div></TD>
+          </TR>
+          <TR>
+            <TD WIDTH="100%" COLSPAN="2" NOWRAP><div CLASS="Font_3 Spacing_2">Pip3A4PurchaseOrderRequest</div></TD>
+          </TR>
+          <TR VALIGN="TOP">
+            <TD WIDTH="15%" NOWRAP><div CLASS="Font_2 Spacing_3">Version:</div></TD>
+            <TD WIDTH="85%"><div CLASS="Font_2 Spacing_3">PIP3A4_PurchaseOrderRequest Guideline Example</div></TD>
+          </TR>
+        </TABLE>
+        </TD>
+        <TD VALIGN="TOP" WIDTH="26%" ALIGN="RIGHT" CLASS="Background_1 Border_1">
+<div CLASS="Spacing_3"><A HREF="http://www.edifice.org"><IMG ALT="" src="logo.png" width="109" height="61" border="0"></A></div>
+        </TD>
+      </TR>
+    </TABLE>
+    <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+      <TR>
+        <TD VALIGN="TOP" WIDTH="100%" CLASS="Background_1 Border_1"><SPAN CLASS="Font_1">&nbsp;</SPAN></TD>
+      </TR>
+    </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="45%" COLSPAN="4" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="400" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD><div CLASS="Spacing_3"><A HREF="001.htm"><IMG ALT="Start" SRC="ri_start.gif" WIDTH="100" HEIGHT="19" BORDER="0"></A></div></TD>
+              <TD><div CLASS="Spacing_3"><IMG ALT="Structure" SRC="ra_structure.gif" WIDTH="100" HEIGHT="19" BORDER="0"></div></TD>
+              <TD><div CLASS="Spacing_3"><A HREF="02index.htm"><IMG ALT="Guideline" SRC="ri_guideline.gif" WIDTH="100" HEIGHT="19" BORDER="0"></A></div></TD>
+              <TD><div CLASS="Spacing_3"><A HREF="03index.htm"><IMG ALT="Components" SRC="ri_components.gif" WIDTH="100" HEIGHT="19" BORDER="0"></A></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="43%" CLASS="Background_1 Border_3"><SPAN CLASS="Font_8">&nbsp;</SPAN></TD>
+          <TD VALIGN="TOP" WIDTH="11%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="98" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><A HREF="javascript:history.back()"><IMG ALT="Go back" SRC="b2_back.gif" WIDTH="60" HEIGHT="19" BORDER="0"></A></div></TD>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><IMG ALT="Previous" SRC="b_previous.gif" WIDTH="19" HEIGHT="19" BORDER="0"></div></TD>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><IMG ALT="Next/Continue" SRC="b_next.gif" WIDTH="19" HEIGHT="19" BORDER="0"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="99%" COLSPAN="6" CLASS="Background_1 Border_1"><SPAN CLASS="Font_1">&nbsp;</SPAN></TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_2 Border_3">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="12%" NOWRAP><div CLASS="Font_4 Spacing_4"></div></TD>
+              <TD WIDTH="80%" NOWRAP><div CLASS="Font_4 Spacing_4">Id</div></TD>
+              <TD WIDTH="7%" NOWRAP><div CLASS="Font_4 Spacing_4"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_2 Border_3">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="7%" NOWRAP><div CLASS="Font_4 Spacing_4"></div></TD>
+              <TD WIDTH="77%" NOWRAP><div CLASS="Font_4 Spacing_4">Usage</div></TD>
+              <TD WIDTH="15%" NOWRAP><div CLASS="Font_4 Spacing_4"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="10%" NOWRAP CLASS="Background_2 Border_3">
+<div CLASS="Spacing_4"><SPAN CLASS="Font_4">Element</SPAN></div>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="66%" COLSPAN="3" CLASS="Background_2 Border_3"><SPAN CLASS="Font_8">&nbsp;</SPAN></TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="23%" COLSPAN="2" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="75%" NOWRAP><div CLASS="Font_5 Spacing_3">Previous</div></TD>
+              <TD WIDTH="24%" NOWRAP><div CLASS="Font_5 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_1"><SPAN CLASS="Font_8">&nbsp;</SPAN></TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="98%" NOWRAP><div CLASS="Font_2 Spacing_3">&nbsp; </div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_2 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" NOWRAP CLASS="Background_1 Border_1">
+<div CLASS="Spacing_3"><SPAN CLASS="Font_2">&nbsp; </SPAN></div>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR VALIGN="TOP">
+              <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest">Pip3A4PurchaseOrderRequest</A></div></TD>
+              <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_1.gif" WIDTH=24 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole">fromRole</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_2.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription">PartnerRoleDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">2</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_3.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation">ContactInformation</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">3</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_4.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EcontactName" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EcontactName">contactName</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">3</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_5.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EcontactName/EFreeFormText" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EcontactName/EFreeFormText">FreeFormText</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">4</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_6.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EEmailAddress" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EEmailAddress">EmailAddress</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">5</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_4.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EfacsimileNumber" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EfacsimileNumber">facsimileNumber</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">5</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_5.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EfacsimileNumber/ECommunicationsNumber" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EfacsimileNumber/ECommunicationsNumber">CommunicationsNumber</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">6</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_7.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EtelephoneNumber" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EtelephoneNumber">telephoneNumber</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">6</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_8.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EtelephoneNumber/ECommunicationsNumber" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EContactInformation/EtelephoneNumber/ECommunicationsNumber">CommunicationsNumber</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">7</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_9.gif" WIDTH=48 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EGlobalPartnerRoleClassificationCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EGlobalPartnerRoleClassificationCode">GlobalPartnerRoleClassificationCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">8</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_10.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription">PartnerDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">9</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_11.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription">BusinessDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">10</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_12.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalBusinessIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalBusinessIdentifier">GlobalBusinessIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">11</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_13.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalSupplyChainCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalSupplyChainCode">GlobalSupplyChainCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">12</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_14.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EGlobalPartnerClassificationCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EfromRole/EPartnerRoleDescription/EPartnerDescription/EGlobalPartnerClassificationCode">GlobalPartnerClassificationCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">13</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_15.gif" WIDTH=24 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EGlobalDocumentFunctionCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EGlobalDocumentFunctionCode">GlobalDocumentFunctionCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">14</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_1.gif" WIDTH=24 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder">PurchaseOrder</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">92</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">unbounded</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_16.gif" WIDTH=36 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EGlobalPurchaseOrderTypeCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EGlobalPurchaseOrderTypeCode">GlobalPurchaseOrderTypeCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">114</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_17.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EisDropShip" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EisDropShip">isDropShip</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">114</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_18.gif" WIDTH=48 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EisDropShip/EAffirmationIndicator" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EisDropShip/EAffirmationIndicator">AffirmationIndicator</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">127</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">unbounded</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_17.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem">ProductLineItem</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">128</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/Ecomments" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/Ecomments">comments</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">128</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_20.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/Ecomments/EFreeFormText" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/Ecomments/EFreeFormText">FreeFormText</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">167</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_21.gif" WIDTH=48 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EGlobalProductUnitOfMeasureCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EGlobalProductUnitOfMeasureCode">GlobalProductUnitOfMeasureCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">189</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EisDropShip" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EisDropShip">isDropShip</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">189</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_20.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EisDropShip/EAffirmationIndicator" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EisDropShip/EAffirmationIndicator">AffirmationIndicator</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">190</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_21.gif" WIDTH=48 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ELineNumber" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ELineNumber">LineNumber</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">191</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity">OrderQuantity</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">192</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_22.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity/ErequestedQuantity" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity/ErequestedQuantity">requestedQuantity</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">192</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_23.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity/ErequestedQuantity/EProductQuantity" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EOrderQuantity/ErequestedQuantity/EProductQuantity">ProductQuantity</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">205</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification">ProductIdentification</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">206</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_24.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EGlobalProductIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EGlobalProductIdentifier">GlobalProductIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">207</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">unbounded</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_22.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification">PartnerProductIdentification</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">208</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_25.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification/EGlobalPartnerClassificationCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification/EGlobalPartnerClassificationCode">GlobalPartnerClassificationCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">209</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_23.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification/EProprietaryProductIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EProductIdentification/EPartnerProductIdentification/EProprietaryProductIdentifier">ProprietaryProductIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">305</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent">requestedEvent</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">305</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_22.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent">TransportationEvent</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">306</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_25.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent/EDateStamp" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent/EDateStamp">DateStamp</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">307</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_23.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent/EGlobalTransportEventCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedEvent/ETransportationEvent/EGlobalTransportEventCode">GlobalTransportEventCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">310</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_19.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice">requestedUnitPrice</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">310</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_22.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount">FinancialAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">311</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_25.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount/EGlobalCurrencyCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount/EGlobalCurrencyCode">GlobalCurrencyCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">313</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_23.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount/EMonetaryAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/ErequestedUnitPrice/EFinancialAmount/EMonetaryAmount">MonetaryAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">339</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_26.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount">totalLineItemAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">339</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_27.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount">FinancialAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">340</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_28.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount/EGlobalCurrencyCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount/EGlobalCurrencyCode">GlobalCurrencyCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">341</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_29.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount/EMonetaryAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EProductLineItem/EtotalLineItemAmount/EFinancialAmount/EMonetaryAmount">MonetaryAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">343</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_17.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent">requestedEvent</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">343</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_26.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent">TransportationEvent</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">344</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_30.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent/EDateStamp" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent/EDateStamp">DateStamp</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">345</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_31.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent/EGlobalTransportEventCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/ErequestedEvent/ETransportationEvent/EGlobalTransportEventCode">GlobalTransportEventCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">395</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">0</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_2.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount">totalAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">395</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_10.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount">FinancialAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">396</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_32.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount/EGlobalCurrencyCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount/EGlobalCurrencyCode">GlobalCurrencyCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">397</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_14.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount/EMonetaryAmount" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EPurchaseOrder/EtotalAmount/EFinancialAmount/EMonetaryAmount">MonetaryAmount</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">398</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_1.gif" WIDTH=24 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EthisDocumentGenerationDateTime" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EthisDocumentGenerationDateTime">thisDocumentGenerationDateTime</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">398</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_33.gif" WIDTH=36 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EthisDocumentGenerationDateTime/EDateTimeStamp" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EthisDocumentGenerationDateTime/EDateTimeStamp">DateTimeStamp</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">399</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_1.gif" WIDTH=24 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EthisDocumentIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EthisDocumentIdentifier">thisDocumentIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">399</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_33.gif" WIDTH=36 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EthisDocumentIdentifier/EProprietaryDocumentIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EthisDocumentIdentifier/EProprietaryDocumentIdentifier">ProprietaryDocumentIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">400</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="24" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_34.gif" WIDTH=24 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole">toRole</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">400</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="36" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_35.gif" WIDTH=36 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription">PartnerRoleDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">406</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_36.gif" WIDTH=48 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EGlobalPartnerRoleClassificationCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EGlobalPartnerRoleClassificationCode">GlobalPartnerRoleClassificationCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">407</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="48" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_37.gif" WIDTH=48 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription">PartnerDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">408</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_4">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_8">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="25"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_38.gif" WIDTH=60 HEIGHT=25 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription">BusinessDescription</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">409</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_39.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalBusinessIdentifier" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalBusinessIdentifier">GlobalBusinessIdentifier</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">410</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="72" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_40.gif" WIDTH=72 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalSupplyChainCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EBusinessDescription/EGlobalSupplyChainCode">GlobalSupplyChainCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" WIDTH="8%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="13%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+              <TD WIDTH="84%" NOWRAP><div CLASS="Font_1 Spacing_3">411</div></TD>
+              <TD WIDTH="1%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="15%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="15%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="8%" ALIGN="CENTER" NOWRAP><div CLASS="Font_6 Spacing_3">..</div></TD>
+              <TD WIDTH="69%" NOWRAP><div CLASS="Font_1 Spacing_3">1</div></TD>
+              <TD WIDTH="6%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+          <TD VALIGN="TOP" WIDTH="76%" COLSPAN="4" CLASS="Background_1 Border_7">
+            <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+              <TR>
+                <TD VALIGN="TOP" WIDTH="60" HEIGHT="23"><div CLASS="Spacing_3"><IMG ALT="" SRC="011_41.gif" WIDTH=60 HEIGHT=23 BORDER="0"></div></TD>
+                <TD VALIGN="TOP">
+                <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                  <TR VALIGN="TOP">
+                    <TD WIDTH="92%"><div CLASS="Font_1 Spacing_3"><A NAME="1FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EGlobalPartnerClassificationCode" HREF="02index.htm?selected=FElements/EPip3A4PurchaseOrderRequest/EtoRole/EPartnerRoleDescription/EPartnerDescription/EGlobalPartnerClassificationCode">GlobalPartnerClassificationCode</A></div></TD>
+                    <TD WIDTH="7%" NOWRAP><div CLASS="Font_1 Spacing_3"></div></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="23%" CLASS="Background_1 Border_1"><SPAN CLASS="Font_8">&nbsp;</SPAN></TD>
+          <TD VALIGN="TOP" WIDTH="77%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR VALIGN="TOP">
+              <TD WIDTH="79%"><div CLASS="Font_5 Spacing_3">Next/Continue</div></TD>
+              <TD WIDTH="21%" NOWRAP><div CLASS="Font_5 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="94%" CLASS="Background_1 Border_6"><SPAN CLASS="Font_8">&nbsp;</SPAN></TD>
+          <TD VALIGN="TOP" WIDTH="6%" CLASS="Background_1 Border_1">
+          <TABLE WIDTH="57" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><A HREF="011.htm"><IMG ALT="Top" SRC="b_top.gif" WIDTH="19" HEIGHT="19" BORDER="0"></A></div></TD>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><IMG ALT="Previous" SRC="b_previous.gif" WIDTH="19" HEIGHT="19" BORDER="0"></div></TD>
+              <TD ALIGN="RIGHT"><div CLASS="Spacing_3"><IMG ALT="Next/Continue" SRC="b_next.gif" WIDTH="19" HEIGHT="19" BORDER="0"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="100%" CLASS="Background_1 Border_1"><SPAN CLASS="Font_1">&nbsp;</SPAN></TD>
+        </TR>
+      </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="100%" CLASS="Background_1 Border_1">
+<div CLASS="Spacing_3"><SPAN CLASS="Font_9">Italic = Attribute</SPAN></div>
+          </TD>
+        </TR>
+      </TABLE>
+      <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+        <TR>
+          <TD VALIGN="TOP" WIDTH="100%" CLASS="Background_1 Border_5">
+          <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+            <TR>
+              <TD WIDTH="47%" NOWRAP><div CLASS="Font_1 Spacing_5">PIP3A4_PurchaseOrderRequest Guideline Example</div></TD>
+              <TD WIDTH="9%" NOWRAP><div CLASS="Font_1 Spacing_5"></div></TD>
+              <TD WIDTH="9%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_5">Issue date:&nbsp; </div></TD>
+              <TD WIDTH="10%" NOWRAP><div CLASS="Font_1 Spacing_5">2007-04-23</div></TD>
+              <TD WIDTH="5%" NOWRAP><div CLASS="Font_1 Spacing_5"></div></TD>
+              <TD WIDTH="9%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_5">Print date:&nbsp; </div></TD>
+              <TD WIDTH="10%" ALIGN="RIGHT" NOWRAP><div CLASS="Font_1 Spacing_5">2026-08-19</div></TD>
+            </TR>
+            <TR>
+              <TD WIDTH="47%" NOWRAP><div CLASS="Font_8 Spacing_3">Generated by GEFEG.FX</div></TD>
+              <TD WIDTH="52%" COLSPAN="6" NOWRAP><div CLASS="Font_8 Spacing_3"></div></TD>
+            </TR>
+          </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+  </DIV></BODY>
+</HTML>

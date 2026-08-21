@@ -1,0 +1,104 @@
+a:link {
+  color: #0000a0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:visited {
+  color: #0000a0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover {
+  color: #0000a0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:active {
+  color: #0000a0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a.toc:link {
+  font-size: 8pt;
+}
+a.toc:visited {
+  font-size: 8pt;
+}
+a.toc:hover {
+  font-size: 8pt;
+}
+a.toc:active {
+  font-size: 8pt;
+}
+
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body.content {
+  background-color: #eeeeee;
+}
+td {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9pt;
+}
+th {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 9pt;
+  font-style: normal;
+  font-weight: bold;
+  color: #0000a0;
+}
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9pt;
+}
+hr {
+  border: 0px;
+  height: 1px;
+  color: #0000a0;
+  background-color: #0000a0;
+}
+
+.ghHeader {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #0000a0;
+}
+.ghHeader2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10pt;
+  color: #0000a0;
+}
+.ghToc {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8pt;
+  color: #0000a0;
+}
+
+.gs9blue {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9pt;
+  color: #0000a0;
+}
